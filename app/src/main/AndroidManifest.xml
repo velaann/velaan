@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.velaann">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bg102"
+        android:roundIcon="@drawable/bg102"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name=".update"></activity>
+        <activity android:name=".your_sellings" />
+        <activity android:name=".language" />
+        <activity android:name=".buying" />
+        <activity android:name=".selling" />
+        <activity android:name=".simple_display" />
+        <activity android:name=".Sellingpage" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Authentication" />
+        <activity android:name=".Contactus" />
+        <activity android:name=".MyProfile" />
+        <activity android:name=".Home" />
+        <activity android:name=".register" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

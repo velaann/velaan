@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422933912722",
+    "project_id": "velaan-app",
+    "storage_bucket": "velaan-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422933912722:android:745d78292c108d90495a4b",
+        "android_client_info": {
+          "package_name": "com.example.velaann"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422933912722-59makcmkjac79n88vempsg3vdolfc802.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJpavt8qogAkjuqLQxjb2b-ZA-p_Qp1e8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422933912722-59makcmkjac79n88vempsg3vdolfc802.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

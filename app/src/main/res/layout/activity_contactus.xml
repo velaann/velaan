@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg77"
+    tools:context=".Contactus">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="335dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/editextgreen"
+        android:enabled="false"
+        android:hint="@string/contactmail"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/email_subject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/email_subject"
+        android:layout_width="335dp"
+        android:layout_height="42dp"
+        android:background="@drawable/editextgreen"
+        android:hint="@string/subject"
+        android:padding="10dp"
+
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <EditText
+        android:id="@+id/email_message"
+        android:layout_width="335dp"
+        android:layout_height="237dp"
+        android:background="@drawable/editextgreen"
+        android:gravity="top|left"
+        android:hint="@string/message"
+
+
+        android:maxLines="4"
+
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/email_send"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_subject"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/email_send"
+        android:layout_width="112dp"
+        android:layout_height="57dp"
+        android:background="@drawable/custom_buttonwhite"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="@string/sendd"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

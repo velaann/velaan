@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".selling">
+
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:background="@color/green"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sell"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/selllocation"
+            android:layout_width="282dp"
+            android:layout_height="31dp"
+            android:background="@drawable/editextgreen"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.709" />
+
+        <EditText
+            android:id="@+id/sellemail"
+            android:layout_width="282dp"
+            android:layout_height="31dp"
+            android:background="@drawable/editextgreen"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.79" />
+
+        <EditText
+            android:id="@+id/sellname"
+            android:layout_width="282dp"
+            android:layout_height="31dp"
+            android:background="@drawable/editextgreen"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.629" />
+
+        <EditText
+            android:id="@+id/sellquantity"
+            android:layout_width="282dp"
+            android:layout_height="31dp"
+            android:textStyle="bold"
+            android:background="@drawable/editextgreen"
+            android:ems="10"
+            android:drawableEnd="@drawable/ic_drop_downarrow"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:tag="KG"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.224" />
+
+        <EditText
+            android:id="@+id/sellprice"
+            android:layout_width="282dp"
+            android:layout_height="31dp"
+            android:background="@drawable/editextgreen"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/view3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.469" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:gravity="center"
+            android:text="Valid Till"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/datePickerButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/sellvalidity"
+            android:layout_width="282dp"
+            android:layout_height="31dp"
+            android:background="@drawable/editextgreen"
+            android:ems="10"
+           android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/view3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.31" />
+
+        <Button
+            android:id="@+id/datePickerButton"
+            style="?android:spinnerStyle"
+            android:layout_width="282dp"
+            android:layout_height="31dp"
+            android:layout_marginBottom="480dp"
+            android:gravity="left"
+            android:onClick="openDatePicker"
+            android:text="JAN 01 2020"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sellvalidity"
+            app:layout_constraintVertical_bias="0.968" />
+
+        <TextView
+            android:id="@+id/sell"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:letterSpacing="0"
+            android:text="data name"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/green"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.432"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.106" />
+
+        <TextView
+            android:id="@+id/Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:gravity="center"
+            android:text="@string/quantity"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/sellquantity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/Validity"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:gravity="center"
+            android:text="@string/validity"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/sellvalidity"
+            app:layout_constraintEnd_toEndOf="@+id/Name"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:gravity="center"
+            android:text="@string/price"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/sellprice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/Contact"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:gravity="center"
+            android:text="@string/contact"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/sellphone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/sellname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/locatiion"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:gravity="center"
+            android:text="@string/location"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/selllocation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Quantity"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/emaill"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:gravity="center"
+            android:text="@string/emailid"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/sellemail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <EditText
+            android:id="@+id/sellphone"
+            android:layout_width="282dp"
+            android:layout_height="31dp"
+            android:background="@drawable/editextgreen"
+            android:ems="10"
+            android:inputType="phone"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.549" />
+
+        <Button
+            android:id="@+id/sellbutton"
+            android:layout_width="109dp"
+            android:layout_height="47dp"
+            android:background="@drawable/custom_buttonwhite"
+            android:text="@string/sell"
+            android:textColor="@color/green"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.874" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

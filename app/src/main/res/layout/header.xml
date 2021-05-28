@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:padding="25dp" android:background="#7DC537" android:layout_height="172dp" android:layout_width="match_parent" style="@style/ThemeOverlay.AppCompat.Dark" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="@string/velaaan"
+        android:textColor="#FFFFFFFF"
+        android:textSize="40sp" />
+
+</LinearLayout>
